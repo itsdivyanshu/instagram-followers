@@ -1,5 +1,5 @@
-## 🧾 InstaAudit – Instagram Follower Analyzer
-InstaAudit is a lightweight, privacy-friendly browser extension that helps you make sense of your Instagram relationships. Just upload your exported followers.html and following.html files from Instagram — no login required, and no data ever leaves your device.
+## 🧾 Instagram Audit – Instagram Follower Analyzer
+Instagram Audit is a lightweight, privacy-friendly browser extension that helps you make sense of your Instagram relationships. Just upload your exported followers.html and following.html files from Instagram — no login required, and no data ever leaves your device.
 
 🔍 Features
 ✅ Find users who don't follow you back
