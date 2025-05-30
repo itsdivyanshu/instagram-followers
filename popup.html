@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram Audit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Instagram Audit</h2>
+      <p>
+        To use this tool, you need to upload your followers and following lists.
+      </p>
+      <p>
+        You can download the followers and following lists from your Instagram
+        profile by going to the following link:
+        <a
+          href="https://accountscenter.instagram.com/info_and_permissions/dyi/?theme=dark"
+          >Download Instagram Data</a
+        >
+      </p>
+      <div class="input-container">
+        <h4>Upload Your Followers List</h4>
+        <input type="file" id="followersFile" accept=".html" />
+        <h4>Upload Your Following List</h4>
+        <input type="file" id="followingFile" accept=".html" />
+        <button id="analyzeBtn">Analyze</button>
+      </div>
+      <hr class="divider" />
+      <div id="results">
+        <h3 id="notFollowingBackHeader" data-base="They Don't Follow You Back">
+          They Don't Follow You Back
+        </h3>
+        <ul id="notFollowingBack"></ul>
+
+        <h3 id="youDontFollowBackHeader" data-base="You Don't Follow Them Back">
+          You Don't Follow Them Back
+        </h3>
+        <ul id="youDontFollowBack"></ul>
+
+        <h3 id="mutualsHeader" data-base="Mutuals">Mutuals</h3>
+        <ul id="mutuals"></ul>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Made with <3 by
+        <a href="https://github.com/itsdivyanshu">Divyanshu Singh</a>
+      </p>
+    </footer>
+    <script src="popup.js"></script>
+  </body>
+</html>

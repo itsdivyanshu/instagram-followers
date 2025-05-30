@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram Follower Audit",
+    "version": "1.0",
+    "description": "Find mutuals, followers you don't follow back, and vice versa.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": ["storage"]
+  }
+  
